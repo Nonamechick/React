@@ -29,8 +29,12 @@ class Car extends React.Component {
         </div>
       );
     }
+    
   }
   
   
   
 export default Car;
+export function Car1(props) {
+  return <h2>I am a {props.brand }!</h2>;
+}; 

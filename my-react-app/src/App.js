@@ -1,17 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
 import Car from './Car.js';
-import Container from './Container.js';
-import Headers from './Header.js';
+
 
 
 function Garage() {
+  const carName = "Mustang";
   return (
     <>
-    {/* <h1>Who lives in my Garage!</h1> favcol="yellow"  for headers*/}
-    <Car />
-    <Headers />
-    <Container />
+    <h1>Who lives in my Garage!</h1> 
+    <Car brand={ carName }/>
+    
     </>
   );
 }
